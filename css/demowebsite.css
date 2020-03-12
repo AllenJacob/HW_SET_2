@@ -1,0 +1,41 @@
+div{
+    background-image: url("./../images/music.jpg");
+    background-size: cover;
+    height: 40vh;
+    padding-top: 25px;
+}
+h1{
+    color: brown;
+    text-align: center;
+    margin: 0px;
+
+}
+#P01{
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 22vh;
+     
+
+     
+}
+h2{
+    color: brown;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-left: 30px;
+} 
+.parastyle{
+    color:darkolivegreen; 
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 15px;
+}
+a{
+    color: brown;
+    margin: 10px;
+}   
+ul{
+    color: darkolivegreen;
+}
