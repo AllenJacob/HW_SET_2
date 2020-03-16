@@ -45,21 +45,25 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-info" onclick="buy();">BUY</button></td>
+                        <td><button class="btn btn-info" onclick="buy()">BUY</button></td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
     <script>
-        function buy() 
+        function buy()
         {
-        var x=document.getElementById("book").value;
-        var y=document.getElementById("author").value;
-        var z=document.getElementById("publisher").value;
-        var w=document.getElementById("price").value;
+            var x=document.getElementById("book").value;
+            var y=document.getElementById("author").value;
+            var z=document.getElementById("publisher").value;
+            var a=document.getElementById("price").value;
+            
+            console.log("Book: "+x);
+            console.log("Author: "+y);
+            console.log("Publisher: "+z);
+            console.log("Price: "+a);
         }
-        
-    </script>
+    </script>    
 </body>
 </html>

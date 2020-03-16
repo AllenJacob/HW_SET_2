@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
 
         <!-- Links -->
         <ul class="navbar-nav">
@@ -43,7 +43,7 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-warning" onclick="register();">REGISTER</button></td>
+                        <td><button class="btn btn-warning" onclick="register()">REGISTER</button></td>
                     </tr>
                     
                 </table>
@@ -51,14 +51,18 @@
         </div>
     </div>
     <script>
-        function register() 
+        function register()
         {
-        var x=document.getElementById("name").value;
-        var y=document.getElementById("admn").value;
-        var z=document.getElementById("roll").value;
-        var w=document.getElementById("branch").value;
+            var x=document.getElementById("name").value;
+            var y=document.getElementById("admn").value;
+            var z=document.getElementById("roll").value;
+            var a=document.getElementById("branch").value;
+            
+            console.log("Name: "+x);
+            console.log("Admn no: "+y);
+            console.log("Roll no: "+z);
+            console.log("Branch: "+a);
         }
-        
     </script>
 </body>
 </html>

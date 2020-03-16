@@ -45,21 +45,25 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-success" onclick="submit();">SUBMIT</button></td>
+                        <td><button class="btn btn-success" onclick="submit()">SUBMIT</button></td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
     <script>
-        function submit() 
+        function submit()
         {
-        var x=document.getElementById("product").value;
-        var y=document.getElementById("manufacturer").value;
-        var z=document.getElementById("expiry").value;
-        var w=document.getElementById("price").value;
+            var x=document.getElementById("product").value;
+            var y=document.getElementById("manufacturer").value;
+            var z=document.getElementById("expiry").value;
+            var a=document.getElementById("price").value;
+            
+            console.log("Product: "+x);
+            console.log("Manufacturer: "+y);
+            console.log("Expiry: "+z);
+            console.log("Price: "+a);
         }
-        
     </script>
 </body>
 </html>
